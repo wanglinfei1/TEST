@@ -1,0 +1,8 @@
+<%if(styles) {
+styles.forEach(function(sty){  %>
+
+<link rel="stylesheet" href="<%= sty %>">
+
+<%      })
+}
+%>

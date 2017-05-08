@@ -1,0 +1,7 @@
+<%
+if(scripts) {
+scripts.forEach(function(js){  %>
+<script src="<%= js %>"></script>
+<%      })
+}
+%>

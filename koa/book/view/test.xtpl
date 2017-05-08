@@ -1,0 +1,4 @@
+{{extend ("./layout/layout")}}
+{{#block ("body")}}
+<p>这是个 test 的测试页面</p>
+{{/block}}
